@@ -1,0 +1,133 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.titulo2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5bbe42;
+}
+
+.p-piçarras{
+    text-align: left;
+    width: 100%;
+    font: 20px;
+}
+
+.class-sfs{
+    text-align: right;
+    width: 100%;
+    font: 20px;
+    margin-left: 90%;
+}
+
+.div-piçarras{
+    width: 50%;
+}
+
+.div-sfs{
+    width: 50%;
+}
+
+.total-piçarras{
+    display: flex;
+    flex-direction: row;
+}
+
+.article-piçarras{
+    padding: 50px;
+}
+
+.article-sfs{
+    padding: 50px;
+}
+
+.h2-sfs{
+    width: 100%;
+    margin-left: 90%;
+    padding: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-urbano{
+    margin-right: 60%;
+    width: 45%;
+}
+
+.div-rural{
+    width: 45%; 
+    margin-left: 50%;
+}
+
+.p-urbano{
+    text-align: left;
+    font: 20px;
+}
+
+.p-rural{
+    text-align: right;
+    font: 20px;
+}
+
+.p-internacional{
+
+}
+
+*/
+
+.total-piçarras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.titulo2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5bbe42;
+}
+
+.Home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #5bbe42;
+    color: darkgreen;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.center {
+    text-align: center;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5bbe42;
+}
+
